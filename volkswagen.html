@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+<title></title>
+
+<style>
+*
+{
+-moz-box-sizing:border-box;
+}
+
+
+body
+{
+margin:0px;
+background-color:black;
+}
+
+.container
+{
+margin:auto;
+width:1170px;
+}
+
+
+
+nav
+{
+overflow:hidden;
+text-align:center;
+background-color:#191e22;
+}
+
+nav ul 
+{
+list-style-type:none;
+}
+
+nav ul li
+{
+display:inline-block;
+padding:0 50px;
+color:#fff;
+text-decoration:none;
+}
+
+nav ul li:hover
+{
+color:#3e8e41;
+}
+
+
+
+
+
+header
+{
+background-image:url("volk2.jpg");
+background-repeat:no-repeat;
+background-size:100% 350px;
+width:100%;
+height:350px;
+margin:0px;
+text-align:center;
+}
+header p
+{
+margin:0px;
+padding-top:40px;
+font-style:italic;
+font-weight:bold;
+font-size:40px;
+letter-spacing:3px;
+}
+
+
+
+article
+{
+overflow:hidden;
+background-color:black;
+padding:20px 0 0 0;
+}
+article p
+{
+color:#888;
+line-height:20px;
+}
+
+article .about
+{
+width:50%;
+float:left;
+}
+article .about img
+{
+float:left;
+border:2px solid powderblue;
+border-radius:50%;
+box-shadow:-2px -5px 3px powderblue,2px 5px 3px powderblue;
+padding:10px;
+}
+article .about .story{
+position:relative;
+left:500px;
+}
+
+
+
+button
+{
+background-color:#191e22;
+color:#fff;
+margin:20px;
+padding:10px 40px;
+letter-spacing:1px;
+}
+
+button:hover
+{
+cursor:pointer;
+}
+
+
+footer
+{
+overflow:hidden;
+text-align:center;
+letter-spacing:3px;
+background-color:#191e22;
+color:#666;
+}
+footer ul
+{
+list-style-type:none;
+}
+footer ul li
+{
+display:inline-block;
+padding:0 5px;
+}
+footer ul li img
+{
+width:18px;
+background-color:#191E22;
+
+}
+
+/* Start Grid System */
+@media (min-width: 576px) { /* Small Devices => Landscape Phones */
+    .container {
+      max-width: 540px;
+    }
+  }
+  @media (min-width: 768px) { /* Medium Devices => Tablets */
+    .container {
+      max-width: 720px;
+    }
+  }
+  @media (min-width: 992px) { /* Desktops */
+    .container {
+      max-width: 960px;
+    }
+  }
+  @media (min-width: 1200px) { /* Large Screens */
+    .container {
+      max-width: 1140px;
+    }
+  }
+  /* End Grid System */  
+
+
+</style>
+</head>
+<body>
+
+<nav>
+<div class="container">
+<ul>
+<a href="index.html"> <li>home</li>   </a>
+<a href="latest.html"> <li>latest</li>    </a>
+
+<a href="about.html"> <li>about </li>    </a>
+</ul>
+</div>
+</nav>
+
+
+
+<header>
+<div class="container">
+<p> volkswagen</p>
+</div>
+</header>
+
+
+<article>
+<div class="container">
+<div class="about" >
+<img src="owner.jpg" height="200px">
+</div>
+<div class="about story">
+<p>  Volkswagen was originally established in 1937 by the German Labour Front (Deutsche Arbeitsfront) in Berlin.[5] In the early 1930s, the German auto industry was still largely composed of luxury models, and the average German could rarely afford anything more than a motorcycle. As a result, only one German out of 50 owned a car. Seeking a potential new market, some car makers began independent "people's car" projects � the Mercedes 170H, Adler AutoBahn, Steyr 55, and Hanomag 1.3L, among others </p>
+</div>
+</div>
+</article>
+ 
+<div style="text-align:center;background-color:black;margin-bottom:50px;">
+<a href="index.html"><button>Backward</button></a>
+<a href="volkswagen's cars.html"><button>view cars</button></a>
+</div>
+
+
+<footer>
+<div class="container">
+<h2>copyright 2018 &copy; all right reversed</h2>
+
+<ul>
+<li><img src="11.png"></li>
+<li><img src="12.png"></li>
+<li><img src="13.png"></li>
+</ul>
+
+</div>
+</footer>
+
+</body>
+</html>
